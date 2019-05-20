@@ -11,3 +11,5 @@
     {{- range .Site.Params.meta }}
     <meta name="{{ .name }}" content="{{ .content }}">
     {{- end }}
+
+{{- partial "head_custom.html" . }}
